@@ -1,0 +1,48 @@
+header{
+	background-color: green;
+	color: whitesmoke;
+	font-family: comic sans ms;
+	text-align: center;	
+}
+
+header p{
+	color: black;
+}
+
+body{
+	background-color: #f1f1f1;
+}
+
+nav{
+	overflow: hidden;
+	background-color: #555;
+}
+
+nav a{
+	float: left;
+	color: #fff;
+	padding: 10px 8px;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: black;
+	color: white;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+}
+
+.column{
+	float:left;
+	padding: 10px;
+}
+
+.column.side{
+	width: 20%;
+}
+
+.column.middle{
+	width: 50%;
+}
